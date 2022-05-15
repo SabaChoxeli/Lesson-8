@@ -111,9 +111,6 @@ header {
 
 .circle--dots {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
 }
 
 .circle-dot {
@@ -131,4 +128,26 @@ header {
   height: 10px;
   background-color: #ffffff;
   border-radius: 50%;
+}
+
+.scrolls {
+  display: flex;
+  margin-top: -80px;
+}
+
+.arrows {
+  margin-left: 445px;
+}
+
+.first-arrow {
+  opacity: 50%;
+  transform: rotate(180deg);
+  margin-right: 10px;
+  width: 26px;
+  height: 26px;
+}
+
+.second-arrow {
+  width: 26px;
+  height: 26px;
 }
