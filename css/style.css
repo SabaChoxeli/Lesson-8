@@ -108,3 +108,27 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
+.circle--dots {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.circle-dot {
+  margin-left: 20px;
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  opacity: 30%;
+}
+
+.circle-dot-first {
+  margin-left: 635px;
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
