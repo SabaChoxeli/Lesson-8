@@ -67,3 +67,39 @@ header {
   padding-left: 36px;
   margin-top: 40px;
 }
+
+.limg {
+  max-width: 607px;
+  width: 100%;
+  height: 497px;
+  margin-top: 200px;
+  overflow: hidden;
+  margin-left: -200px;
+  margin-right: 150px;
+}
+
+.mimg {
+  /* position: absolute; */
+  width: 707px;
+  height: 597px;
+  margin-top: 80px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.rimg {
+  max-width: 607px;
+  width: 100%;
+  height: 497px;
+  margin-top: 200px;
+  margin-left: 150px;
+  overflow: hidden;
+  margin-right: -170px;
+}
+
+.imgs-section {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
